@@ -1,0 +1,104 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" 
+   "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Language" content="en-za" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="stylesheet" href="styles.css">
+<script src="pro.js"></script>
+<title>ORDER</title>
+
+</head>
+
+<body>
+	<div class="main">
+		<div id="sidebar">
+			<img src="swegga.jpg".class="left"./>
+		</div>
+
+		<div id="banner"> 
+			<img src="delivery.gif".class="head"./>
+		</div>
+	</div>
+
+	<div id="page">
+		<div class="nav">
+		<img src="links.gif" usemap="#thelinks">
+	<map name="thelinks">
+		<area target="" alt="" title="" href="order.html" coords="1,5,96,35" shape="rect">
+		<area target="" alt="" title="" href="service.html" coords="104,5,191,34" shape="rect">
+		<area target="" alt="" title="" href="products.html" coords="209,6,296,35" shape="rect">
+		<area target="" alt="" title="" href="orderstatus.html" coords="329,5,416,34" shape="rect">
+		<area target="" alt="" title="" href="contactus.html" coords="456,6,543,35" shape="rect">
+	</map>
+	
+	</div>
+
+	<table style="width: 100% ">
+		<tr>
+			<th>Description</th>
+			<th>Size</th>
+			<th>Colour</th>
+			<th>Price</th>
+			<th>Quantity</th>
+			<th>Total</th>
+		</tr>
+		<tr>
+			<td><a href="#">Female Ski Jackets</a></td>
+			<td>
+				<select id="sizes">
+				<option value="item-1">Small</option>
+				<option value="item-2">Medium</option>
+				<option value="item-3">Large</option>
+			   </select>
+			</td>
+			<td>
+				<select id="colors">
+				<option value="item-1">Red</option>
+				<option value="item-2">Pink</option>
+				<option value="item-3">Black</option>
+				</select>
+			</td>
+
+			<td id="fprice">150.95</td>
+			<td><input type="text" id="famount" size="10"/></td>
+			<td><input type="text" id="fresult" size="10"/></td>
+
+		</tr>
+		<tr>
+
+
+			<td><a href="#">Male Ski Jackets</a></td>
+			<td>
+				<select id="sizes">
+				<option value="item-1">Small</option>
+				<option value="item-2">Medium</option>
+				<option value="item-3">Large</option>
+				</select>
+			</td>
+			<td>
+				<select id="colors">
+				<option value="item-1">Red</option>
+				<option value="item-2">Blue</option>
+				<option value="item-3">White</option>
+				</select>
+			</td>
+
+			<td id="fprice">180.95</td>
+			<td><input type="text" id="mamount" size="10"/></td>
+			<td><input type="text" id="mresult" size="10" /></td>
+		</tr>
+		<tr>
+			<td colspan="4">Click to confirm and process your order:</td>
+			<td>
+				<input type="button" id="calc" onclick="totalcost('famount')" value="Total Amount"  />
+			</td>
+			<td><input type="text" id="result" size="10" /></td>
+
+		</tr>
+	</table>
+
+
+</div>
+</body>
+</html>
